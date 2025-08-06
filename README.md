@@ -11,41 +11,40 @@ Both agents are powered by the **Phidata Agentic Framework**, **Google Gemini LL
 
 ## 📁 Project Structure
 
-```bash
-Phi-Data-Agent/
-│
-├── main.py               # Entry point for Book Recommender
-├── agent.py              # Book Recommender agent logic
-├── schema.py             # Book Recommender schemas (Pydantic)
-├── .env                  # Your API keys (not committed to repo)
-├── requirements.txt      # Shared dependencies
-├── README.md             # This file
-│
-└── LLM-Recommender/      # LLM Recommender folder
-    ├── main.py           # Entry point for LLM Recommender
-    ├── agent.py          # LLM Recommender agent logic
-    ├── schema.py         # LLM Recommender schemas (Pydantic)
+    ```bash
+    Phi-Data-Agent/
+    │
+    ├── main.py               # Entry point for Book Recommender
+    ├── agent.py              # Book Recommender agent logic
+    ├── schema.py             # Book Recommender schemas (Pydantic)
+    ├── .env                  # Your API keys (not committed to repo)
+    ├── requirements.txt      # Shared dependencies
+    ├── README.md             # This file
+    │
+    └── LLM-Recommender/      # LLM Recommender folder
+        ├── main.py           # Entry point for LLM Recommender
+        ├── agent.py          # LLM Recommender agent logic
+        ├── schema.py         # LLM Recommender schemas (Pydantic)
+
 📚 Project 1: AI Book Recommender
 An LLM-based command-line assistant that takes a user’s interest (e.g., psychology, sci-fi, business) and returns 3 book suggestions with descriptions.
 
-🔥 Features
-✅ Validates input with Pydantic
-
-🤖 Uses Gemini LLM via Phidata
-
-📘 Returns book title, author, and description
-
-🧩 Clean and modular file structure
-
-▶️ How to Run
-bash
-Copy
-Edit
-python main.py
+    🔥 Features
+    ✅ Validates input with Pydantic
+    
+    🤖 Uses Gemini LLM via Phidata
+    
+    📘 Returns book title, author, and description
+    
+    🧩 Clean and modular file structure
+    
+    ▶️ How to Run
+    bash
+    Copy
+    Edit
+    python main.py
 💡 Example
-markdown
-Copy
-Edit
+
 📚 Welcome to the AI Book Recommender!
 Enter your interest: productivity
 
